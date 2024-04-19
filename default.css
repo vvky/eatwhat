@@ -4,6 +4,9 @@ html {
 }
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     overflow: hidden;
     margin: 0;
@@ -11,7 +14,7 @@ body {
     width: 100%;
     height: 100%;
     background: #EEE;
-    font-family: "微软雅黑";
+    /*font-family: "微软雅黑";*/
 }
 
 #wrapper {
@@ -41,8 +44,17 @@ body {
     height: 40px;
     +margin-left: 260px;
     vertical-align: middle;
-    font-family: "微软雅黑";
+    /*font-family: "微软雅黑";*/
     cursor: pointer;
+    background-color: #212936;
+    /*字体颜色*/
+    color: #fff;
+    /*按钮圆角*/
+    border-radius: 9px;
+    /*按钮阴影*/
+    box-shadow: 0 0 5px #000;
+    /*按钮边框*/
+    border: 1px solid #000;
 }
 
 #stop {
@@ -50,7 +62,7 @@ body {
     width: 120px;
     height: 40px;
     vertical-align: middle;
-    font-family: 微软雅黑;
+    /*font-family: 微软雅黑;*/
     cursor: pointer;
 }
 
@@ -92,10 +104,4 @@ body {
     cursor: pointer;
     width: 50px;
     height: 22px;
-}
-
-#weibo {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
 }
